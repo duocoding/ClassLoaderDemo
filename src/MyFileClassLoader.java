@@ -79,7 +79,7 @@ public class MyFileClassLoader extends ClassLoader{
     }
 
     public static void main(String[] args) throws Exception {
-        MyFileClassLoader classLoader = new MyFileClassLoader("d:/");
+        MyFileClassLoader classLoader = new MyFileClassLoader("d:\\idea_workspace\\myclassloader");
         Class clazz = classLoader.loadClass("com.myClassLoader.Demo");
         clazz.newInstance();
     }
