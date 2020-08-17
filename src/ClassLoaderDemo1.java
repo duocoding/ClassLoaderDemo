@@ -13,7 +13,7 @@ import java.net.URLClassLoader;
 public class ClassLoaderDemo1 {
 
     public static void main(String[] args) throws Exception {
-        File file = new File("d:/");
+        File file = new File("d:\\idea_workspace\\myclassloader");
         URI uri = file.toURI();
         URL url = uri.toURL();
 
